@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">   
+    <title>Memoria estatica</title>
+</head>
+<body>
+    <main class="main">
+        <h1>Memoria Estatica✅</h1>
+        <div class="main__div">
+            <input type="text" id="TamMem" class="input__TamMem" placeholder="Tamaño memoria">
+            <input type="text" id="TamSo" class="input__TamSo" placeholder="Tamaño sistema operativo">
+            <button class="btn__TamMem" id="TamMem" onclick="CapturarDatos()">Ingresar tamaños</button>
+            <input type="text" id="TamPart" class="input__TamPart" placeholder="Tamaño particion">
+            <button class="btn__TamPart" id="TamPart" onclick="AgregarPart()">Ingresar tamaño particion</button>
+            <span>Memoria Libre: </span> <p id="MemoriaLibre"></p>
+        </div>
+        <canvas width="1000px" height="500px" id="canvas">
+
+        </canvas>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

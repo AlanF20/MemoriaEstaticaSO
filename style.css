@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+}
+.main h1{
+    padding-bottom: 40px;
+}
+.main__div{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.main__div input{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(212, 212, 212);
+    font-family:'Roboto Mono', monospace ;
+    padding: 5px;
+}
+.main__div button{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(212, 212, 212);
+    font-family:'Roboto Mono', monospace ;
+    padding: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+#stage-container{
+    width: 100%;
+    height: 100%;
+}
